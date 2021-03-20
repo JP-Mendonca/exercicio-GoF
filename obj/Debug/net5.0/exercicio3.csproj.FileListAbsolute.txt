@@ -1,0 +1,16 @@
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/exercicio3
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/exercicio3.deps.json
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/exercicio3.runtimeconfig.json
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/exercicio3.runtimeconfig.dev.json
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/exercicio3.dll
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/ref/exercicio3.dll
+/home/jp/unit/prog avançada/exercicio3/bin/Debug/net5.0/exercicio3.pdb
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.csprojAssemblyReference.cache
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.GeneratedMSBuildEditorConfig.editorconfig
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.AssemblyInfoInputs.cache
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.AssemblyInfo.cs
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.csproj.CoreCompileInputs.cache
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.dll
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/ref/exercicio3.dll
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.pdb
+/home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.genruntimeconfig.cache
