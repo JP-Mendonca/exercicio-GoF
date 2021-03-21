@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
+using myIter;
 
-namespace devices
+namespace myDevices
 {
     public interface IDevice
     {
@@ -37,6 +39,45 @@ namespace devices
             return String.Join(", ", attributes);
         }
     }
+
+    abstract class AbsDeviceList
+    {
+        public abstract myIterator CreateIterator();
+    }
+
+    class DeviceList : AbsDeviceList
+    {
+        private List<Device> _devices { get; set; }
+
+        public DeviceList()
+        {
+            _devices = new List<Device>();
+        }
+        public override myIterator CreateIterator()
+        {
+            return new myIterator(this);
+        }
+
+        public int Count
+        {
+            get { return _devices.Count; }
+        }
+        
+        public object this[int index]
+        {   // adiciona dispositivo em uma posição específica
+            get { return _devices[index]; }
+            set { _devices.Insert(index, value as Device); }
+        }
+        public List<Device> GetDevices()
+        {
+            return _devices;
+        }
+        public void AddDevice(Device device)
+        {   // adiciona dispositivo no final da lista
+            _devices.Add(device);
+        }
+    }
+
     class iPhoneAdapter : Device
     {
         private iPhone my_iPhone = new iPhone();

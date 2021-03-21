@@ -14,3 +14,19 @@
 /home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/ref/exercicio3.dll
 /home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.pdb
 /home/jp/unit/prog avançada/exercicio3/obj/Debug/net5.0/exercicio3.genruntimeconfig.cache
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.csprojAssemblyReference.cache
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.AssemblyInfoInputs.cache
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.AssemblyInfo.cs
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.dll
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\ref\exercicio3.dll
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.pdb
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\exercicio3.exe
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\exercicio3.deps.json
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\exercicio3.runtimeconfig.json
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\exercicio3.runtimeconfig.dev.json
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\exercicio3.dll
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\ref\exercicio3.dll
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\bin\Debug\net5.0\exercicio3.pdb
+C:\Users\jpmov\OneDrive\Área de Trabalho\JP\arquivos unit\Programação Avançada\exercicio-GoF\obj\Debug\net5.0\exercicio3.genruntimeconfig.cache
