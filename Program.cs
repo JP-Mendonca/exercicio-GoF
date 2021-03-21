@@ -61,7 +61,7 @@ namespace exercicio3
             // adiciona manualmente alguns dispositivos ao servidor
             for (int i=0; i<11; i++, ip_range--)
             {   
-                if (i%2 == 0)
+                if (i%2 == 1)
                 // usando adapter aqui
                     _devices[i] = new iPhoneAdapter($"Device {i+1}", $"192.168.1.{254-ip_range}", default_gateway);
                 else
