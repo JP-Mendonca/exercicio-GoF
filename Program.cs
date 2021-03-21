@@ -70,7 +70,5 @@ namespace exercicio3
         {
             return devices;
         }
-
     }
-
 }
