@@ -1,6 +1,4 @@
-using System;
 using myDevices;
-using System.Collections.Generic;
 
 namespace myIter
 {   // iterator para o tipo DeviceList
