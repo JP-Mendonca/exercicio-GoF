@@ -4,38 +4,20 @@ using myIter;
 
 namespace myDevices
 {
-    public interface IDevice
+    class Device  
     {
-        String GetName();
-        String GetIpAddr();
-        String GetDefGat();
-    }
-    class Device : IDevice 
-    {
-        private String Name { get; set; }
-        private String ip_addr { get; set; }
-        private String default_gateway { get; set; }
-        public Device(String _name, String _ip_addr, String def_gat)
+        public String name { get; set; }
+        public String ip_addr { get; set; }
+        public String default_gateway { get; set; }
+        public Device(String name, String ip_addr, String def_gat)
         {
-            Name = _name;
-            ip_addr = _ip_addr;
+            this.name = name;
+            this.ip_addr = ip_addr;
             default_gateway = def_gat;
-        }
-        public String GetName()
-        {
-            return Name;
-        }
-        public String GetIpAddr()
-        {
-            return ip_addr;
-        }
-        public String GetDefGat()
-        {
-            return default_gateway;
         }
         public virtual String GetAttributes()
         {
-            String[] attributes = { Name, ip_addr, default_gateway };
+            String[] attributes = { name, ip_addr, default_gateway };
             return String.Join(", ", attributes);
         }
     }
