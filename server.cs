@@ -8,9 +8,9 @@ namespace server
     class DHCP_Server
     {
         private static DHCP_Server _instance;
-        private String ip_addr { get; set; }
-        private String default_gateway {get; set; }
-        private Int64 ip_range { get; set; }
+        public String ip_addr { get; set; }
+        public String default_gateway {get; set; }
+        public int ip_range { get; set; }
         private DeviceList _devices { get; set; }
         public myIterator _devices_iterator;
 
@@ -53,6 +53,11 @@ namespace server
         public void AddDevice(Device device)
         {
             _devices.AddDevice(device);
+        }
+
+        public void PopDevice(String _ip_addr)
+        {
+            _devices.PopDevice(_ip_addr);
         }
     }
 }

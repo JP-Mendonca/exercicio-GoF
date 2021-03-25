@@ -2,6 +2,8 @@
 using myDevices;
 using myIter;
 using server;
+using System.Collections.Generic;
+using myMemento;
 
 namespace exercicio3
 {
@@ -32,8 +34,21 @@ namespace exercicio3
 
             // usando iterator aqui
             myIterator it = s1._devices_iterator;
+
+            List<DeviceCareTaker> dct_list = new List<DeviceCareTaker>();
+            
+            int cont = 0;
             for(Device dev = it.First(); !it.IsOver; dev = it.Next())
-            {
+            {   
+                dct_list.Add(new DeviceCareTaker());
+                dct_list[cont++]._memento = dev.SaveState();
+                dev.default_gateway = "No gateway";
+                Console.WriteLine(dev.GetAttributes());
+            }
+            cont = 0;
+            for(Device dev = it.First(); !it.IsOver; dev = it.Next())
+            {   
+                dev.RestoreState(dct_list[cont++]._memento);
                 Console.WriteLine(dev.GetAttributes());
             }
 

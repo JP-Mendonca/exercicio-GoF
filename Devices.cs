@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using myIter;
+using System.Linq;
+using myMemento;
 
 namespace myDevices
 {
@@ -19,6 +21,18 @@ namespace myDevices
         {
             String[] attributes = { name, ip_addr, default_gateway };
             return String.Join(", ", attributes);
+        }
+
+        public DeviceMemento SaveState()
+        {
+            return(new DeviceMemento(name,ip_addr,default_gateway));
+        }
+
+        public void RestoreState(DeviceMemento dm)
+        {
+            this.name = dm.name;
+            this.ip_addr = dm.ip_addr;
+            this.default_gateway = dm.default_gateway;
         }
     }
 
@@ -55,8 +69,15 @@ namespace myDevices
             return _devices;
         }
         public void AddDevice(Device device)
-        {   // adiciona dispositivo no final da lista
+        {   
             _devices.Add(device);
+        }
+
+        public void PopDevice(String _ip_addr)
+        {   
+            var device = _devices.FirstOrDefault(d => d.ip_addr == _ip_addr);
+            if(device != null)
+                _devices.Remove(device);
         }
     }
 
