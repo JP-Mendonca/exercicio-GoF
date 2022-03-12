@@ -1,6 +1,10 @@
 Exercício da disciplina de Programação Avançada
 Autor: João Pedro Mendonça Oliveira
 
+tst
+
+
+
 O objetivo do exercício era implementar os 3 padrões de projetos: Adapter, Iterator e Singleton em uma única aplicação a escolha do
 aluno. Eu acabei por escolher uma implementação que simula um servidor DHCP que distribui endereços IP em uma rede para dispositivos
 conectados à mesma. O padrão Singleton foi o primeiro a ser feito, e foi aplicado ao servidor, que por ser uma entidade única da rede
